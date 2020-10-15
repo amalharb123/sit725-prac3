@@ -6,9 +6,6 @@ var moment= require('moment')
 var app=express()
 
 
-// serve static content 'wep page'
-
-
 var log=function(message){
     var time=moment().format()
     console.log('[Server] @'+time+' '+message)
